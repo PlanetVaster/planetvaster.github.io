@@ -33,6 +33,7 @@ body {
     background-color: #2196F3;
     padding: 15px 0 15px 0;
     margin: 0 0 10px 0;
+    text-shadow: 3px 3px 10px #607D8B;
 }
 
 #desc {
@@ -67,12 +68,14 @@ body {
 #twitter img {
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
+    box-shadow: 7px 7px 10px black;
 }
 
 #games-header {
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
     color: #1DE9B6;
+    text-shadow: 3px 3px 10px #607D8B;
 }
 
 #games-container {
@@ -86,10 +89,11 @@ body {
     width: 1000px;
     height: 300px;
     margin: auto;
+    box-shadow: 3px 3px 10px black;
 }
 
 #leftie-stuff {
-    width: 600px;
+    width: 700px;
     height: 300px;
     float: left;
 }
@@ -109,6 +113,8 @@ body {
     padding-top: 5px
     margin: 0px;
     line-height: 1;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 #leftie-authors {
@@ -132,12 +138,18 @@ body {
     color: #4CAF50;
     border: 5px solid #4CAF50;
     border-radius: 30px;
-    margin-left: 135px;
+    margin-left: 190px;
+    opacity: 1.0;
+}
+
+#leftie-link:hover {
+    opacity: 0.5;
 }
 
 #leftie-linked:visited {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
     font-size: 24px;
     text-decoration: none;
     padding: 8px;
@@ -145,7 +157,8 @@ body {
     color: #4CAF50;
     border: 5px solid #4CAF50;
     border-radius: 30px;
-    margin: auto;
+    margin-left: 190px;
+    opacity: 1.0;
 }
 
 #leftie-image {
