@@ -177,3 +177,22 @@ body {
 #leftie-image {
     float: right;
 }
+
+/* Footer */
+footer {
+    width: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #795548;
+    height: 50px;
+    text-align: center;
+}
+
+#copyright {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #18FFFF;
+}
